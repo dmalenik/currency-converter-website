@@ -1,1 +1,9 @@
 export { logo } from './logoData';
+export { registerSectionData } from './registerSectionData';
+export { sendSectionData } from './sendSectionData';
+export { transferSectionData } from './transferSectionData';
+export { sendMoney } from './sendMoneyData';
+export { trackTransfer } from './trackTransferData';
+export { menuOptions } from './menuOptionsData';
+export { language } from './languageData';
+export { register } from './registerData';

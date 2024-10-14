@@ -8,18 +8,25 @@ import {
   TrackTransfer,
   MenuOptions,
 } from '../components';
-import { logo } from '../data';
+import {
+  language,
+  logo,
+  menuOptions,
+  register,
+  sendMoney,
+  trackTransfer,
+} from '../data';
 
 export const Header = () => {
   return (
     <header>
       <Logo {...logo} />
       <Menu>
-        <SendMoney />
-        <TrackTransfer />
-        <MenuOptions />
-        <Language />
-        <Register />
+        <SendMoney {...sendMoney} />
+        <TrackTransfer {...trackTransfer} />
+        <MenuOptions {...menuOptions} />
+        <Language {...language} />
+        <Register {...register} />
       </Menu>
     </header>
   );

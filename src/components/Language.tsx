@@ -1,11 +1,11 @@
 import React from 'react';
-import { BsGlobe2 } from 'react-icons/bs';
+import { type LanguageType } from '../types';
 
-export const Language = () => {
+export const Language = ({ icon, text }: LanguageType) => {
   return (
     <div>
-      <BsGlobe2 />
-      <p>EN</p>
+      {icon}
+      <p>{text}</p>
     </div>
   );
 };

@@ -1,9 +1,11 @@
 import React from 'react';
 
-export const SendMoney = () => {
+import { type SendMoneyType } from '../types';
+
+export const SendMoney = ({ text }: SendMoneyType) => {
   return (
     <button disabled type="button">
-      Send money
+      {text}
     </button>
   );
 };

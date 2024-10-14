@@ -1,10 +1,6 @@
 import React from 'react';
-import { CiMenuBurger } from 'react-icons/ci';
+import { MenuOptionsType } from '../types/menuOptionsType';
 
-export const MenuOptions = () => {
-  return (
-    <div>
-      <CiMenuBurger />
-    </div>
-  );
+export const MenuOptions = ({ icon }: MenuOptionsType) => {
+  return <div>{icon}</div>;
 };

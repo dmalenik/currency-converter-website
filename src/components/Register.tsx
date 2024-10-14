@@ -1,9 +1,11 @@
 import React from 'react';
 
-export const Register = () => {
+import { type RegisterType } from '../types';
+
+export const Register = ({ text }: RegisterType) => {
   return (
     <button type="button" disabled>
-      Register
+      {text}
     </button>
   );
 };

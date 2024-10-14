@@ -1,9 +1,11 @@
 import React from 'react';
 
-export const TrackTransfer = () => {
+import { type TrackTransferType } from '../types';
+
+export const TrackTransfer = ({ text }: TrackTransferType) => {
   return (
     <button disabled type="button">
-      Track a transfer
+      {text}
     </button>
   );
 };
