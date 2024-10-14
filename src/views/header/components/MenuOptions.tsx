@@ -1,5 +1,6 @@
 import React from 'react';
-import { MenuOptionsType } from '../types/menuOptionsType';
+
+import { type MenuOptionsType } from '../types';
 
 export const MenuOptions = ({ icon }: MenuOptionsType) => {
   return <div>{icon}</div>;

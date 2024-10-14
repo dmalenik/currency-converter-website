@@ -7,7 +7,7 @@ import {
   SendMoney,
   TrackTransfer,
   MenuOptions,
-} from '../components';
+} from './components';
 import {
   language,
   logo,
@@ -15,7 +15,7 @@ import {
   register,
   sendMoney,
   trackTransfer,
-} from '../data';
+} from './data';
 
 export const Header = () => {
   return (
