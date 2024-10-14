@@ -1,10 +1,12 @@
 import React from 'react';
 
-export const Menu = ({ children }: any) => {
+import { type MenuType } from '../types';
+
+export const Menu = ({ children }: MenuType) => {
   return (
     <nav>
       <ul>
-        {children.map((child: any) => (
+        {children?.map(child => (
           <li key={crypto.randomUUID()}>{child}</li>
         ))}
       </ul>
