@@ -1,5 +1,5 @@
 import React from 'react';
-import { TransferSectionType } from '../Main/Transfer/types';
+import { type TransferSectionType } from '../types';
 
 export const TransferSection = ({
   heading,
