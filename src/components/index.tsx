@@ -6,3 +6,8 @@ export { Language } from './Language';
 export { MenuOptions } from './MenuOptions';
 export { TrackTransfer } from './TrackTransfer';
 export { SendMoney } from './SendMoney';
+export { CurrencyConverter } from './CurrencyConverter';
+export { SecurityDisclaimer } from './SecurityDisclaimer';
+export { Transfer } from './Transfer';
+export { TransferApp } from './TransferApp';
+export { Disclaimer } from './Disclaimer';
