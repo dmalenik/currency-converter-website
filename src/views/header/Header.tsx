@@ -9,24 +9,24 @@ import {
   MenuOptions,
 } from './components';
 import {
-  language,
-  logo,
-  menuOptions,
-  register,
-  sendMoney,
-  trackTransfer,
+  languageData,
+  logoData,
+  menuOptionsData,
+  registerData,
+  sendMoneyData,
+  trackTransferData,
 } from './data';
 
 export const Header = () => {
   return (
     <header>
-      <Logo {...logo} />
+      <Logo {...logoData} />
       <Menu>
-        <SendMoney {...sendMoney} />
-        <TrackTransfer {...trackTransfer} />
-        <MenuOptions {...menuOptions} />
-        <Language {...language} />
-        <Register {...register} />
+        <SendMoney {...sendMoneyData} />
+        <TrackTransfer {...trackTransferData} />
+        <MenuOptions {...menuOptionsData} />
+        <Language {...languageData} />
+        <Register {...registerData} />
       </Menu>
     </header>
   );

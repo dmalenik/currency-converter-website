@@ -1,5 +1,5 @@
 import { type TrackTransferType } from '../types';
 
-export const trackTransfer: TrackTransferType = {
+export const trackTransferData: TrackTransferType = {
   text: 'Track a transfer',
 };

@@ -1,5 +1,5 @@
 import { type RegisterType } from '../types';
 
-export const register: RegisterType = {
+export const registerData: RegisterType = {
   text: 'Register',
 };

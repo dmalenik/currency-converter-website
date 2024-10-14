@@ -1,5 +1,5 @@
 import { type SendMoneyType } from '../types';
 
-export const sendMoney: SendMoneyType = {
+export const sendMoneyData: SendMoneyType = {
   text: 'Send money',
 };
