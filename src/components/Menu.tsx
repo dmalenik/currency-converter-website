@@ -1,16 +1,12 @@
 import React from 'react';
 
-export const Menu = ({ children }) => {
-  console.log(children);
+export const Menu = ({ children }: any) => {
   return (
     <nav>
       <ul>
-        <li>{/** Send money */}</li>
-        <li>{/** Track transfer */}</li>
-        <li>{/** Menu options */}</li>
-        <li>{/** Language options */}</li>
-        <li>{/** Register button */}</li>
-        <li>{/** Login button */}</li>
+        {children.map((child: any) => (
+          <li key={crypto.randomUUID()}>{child}</li>
+        ))}
       </ul>
     </nav>
   );
