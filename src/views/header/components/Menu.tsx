@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { type MenuType } from '../types';
+import { type MenuProps } from '../types';
 
-export const Menu = ({ children }: MenuType) => {
+export const Menu = ({ children }: MenuProps) => {
   return (
     <nav>
       <ul>

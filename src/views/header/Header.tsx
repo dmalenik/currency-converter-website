@@ -3,13 +3,12 @@ import {
   Language,
   Logo,
   Menu,
-  Register,
-  SendMoney,
-  TrackTransfer,
+  MenuItem,
   MenuOptions,
 } from './components';
 import {
   languageData,
+  loginData,
   logoData,
   menuOptionsData,
   registerData,
@@ -22,11 +21,12 @@ export const Header = () => {
     <header>
       <Logo {...logoData} />
       <Menu>
-        <SendMoney {...sendMoneyData} />
-        <TrackTransfer {...trackTransferData} />
+        <MenuItem {...sendMoneyData} />
+        <MenuItem {...trackTransferData} />
         <MenuOptions {...menuOptionsData} />
         <Language {...languageData} />
-        <Register {...registerData} />
+        <MenuItem {...registerData} />
+        <MenuItem {...loginData} />
       </Menu>
     </header>
   );

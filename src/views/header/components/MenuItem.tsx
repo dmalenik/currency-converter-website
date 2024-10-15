@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { type SendMoneyType } from '../types';
+import { type MenuItemProps } from '../types';
 
-export const SendMoney = ({ text }: SendMoneyType) => {
+export const MenuItem = ({ text }: MenuItemProps) => {
   return (
     <button disabled type="button">
       {text}

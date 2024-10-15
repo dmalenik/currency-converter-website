@@ -1,5 +1,5 @@
-import { type TrackTransferType } from '../types';
+import { type MenuItemProps } from '../types';
 
-export const trackTransferData: TrackTransferType = {
+export const trackTransferData: MenuItemProps = {
   text: 'Track a transfer',
 };

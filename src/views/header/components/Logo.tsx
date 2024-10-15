@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { type LogoType } from '../types';
+import { type MenuItemProps } from '../types';
 
-export const Logo = ({ icon, text }: LogoType) => {
+export const Logo = ({ icon, text }: MenuItemProps) => {
   return (
     <div>
       {icon}

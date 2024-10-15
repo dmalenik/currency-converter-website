@@ -1,7 +1,7 @@
 import { CiMenuBurger } from 'react-icons/ci';
 
-import { type MenuOptionsType } from '../types';
+import { type MenuItemProps } from '../types';
 
-export const menuOptionsData: MenuOptionsType = {
+export const menuOptionsData: MenuItemProps = {
   icon: <CiMenuBurger />,
 };

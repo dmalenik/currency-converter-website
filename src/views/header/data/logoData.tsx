@@ -1,8 +1,8 @@
 import { MdAnchor } from 'react-icons/md';
 
-import { type LogoType } from '../types';
+import { type MenuItemProps } from '../types';
 
-export const logoData: LogoType = {
+export const logoData: MenuItemProps = {
   icon: <MdAnchor />,
   text: 'Logo',
 };

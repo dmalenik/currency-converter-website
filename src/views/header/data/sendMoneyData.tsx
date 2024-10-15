@@ -1,5 +1,5 @@
-import { type SendMoneyType } from '../types';
+import { type MenuItemProps } from '../types';
 
-export const sendMoneyData: SendMoneyType = {
+export const sendMoneyData: MenuItemProps = {
   text: 'Send money',
 };

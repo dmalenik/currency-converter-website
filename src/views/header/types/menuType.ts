@@ -1,3 +1,3 @@
 import { ReactNode } from 'react';
 
-export type MenuType = { children?: ReactNode[] };
+export type MenuProps = { children?: ReactNode[] };
