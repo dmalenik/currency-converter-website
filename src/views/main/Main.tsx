@@ -5,7 +5,7 @@ import {
   Transfer,
   TransferApp,
   Disclaimer,
-} from '../components';
+} from './components';
 
 export const Main = () => {
   return (
