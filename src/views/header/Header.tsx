@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-  Language,
-  Logo,
-  Menu,
-  MenuItem,
-  MenuOptions,
-} from './components';
+import { Language, Logo, Menu, MenuItem, MenuOptions } from './components';
 import {
   languageData,
   loginData,
