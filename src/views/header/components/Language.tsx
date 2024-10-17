@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { type MenuItemProps } from '../types';
+import { type MenuItemProps } from '../../../types'
 
 export const Language = ({ icon, text }: MenuItemProps) => {
   return (

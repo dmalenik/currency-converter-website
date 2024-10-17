@@ -1,8 +1,8 @@
-import { FaHeart, FaShieldAlt } from 'react-icons/fa';
-import { LuClock4 } from 'react-icons/lu';
-import { FaGlobe } from 'react-icons/fa6';
+import { FaHeart, FaShieldAlt } from 'react-icons/fa'
+import { LuClock4 } from 'react-icons/lu'
+import { FaGlobe } from 'react-icons/fa6'
 
-import { type TransferSectionType } from '../types';
+import { type TransferSectionType } from '../../../types'
 
 export const transferSectionData: TransferSectionType = {
   heading:
@@ -37,4 +37,4 @@ export const transferSectionData: TransferSectionType = {
         'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus eligendi odit blanditiis saepe nobis optio vel laborumatque quos autem!',
     },
   ],
-};
+}

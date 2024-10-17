@@ -1,10 +1,10 @@
-import React from 'react';
-import { TransferSection } from './TransferSection';
+import React from 'react'
+import { TransferSection } from './components'
 import {
   transferSectionData,
   registerSectionData,
   sendSectionData,
-} from '../data';
+} from './data'
 
 export const Transfer = () => {
   return (
@@ -13,5 +13,5 @@ export const Transfer = () => {
       <TransferSection {...registerSectionData} />
       <TransferSection {...sendSectionData} />
     </section>
-  );
-};
+  )
+}

@@ -1,4 +1,4 @@
-import { type TransferSectionType } from '../types';
+import { type TransferSectionType } from '../../../types'
 
 export const registerSectionData: TransferSectionType = {
   heading: 'Register to start sending money today.',
@@ -29,4 +29,4 @@ export const registerSectionData: TransferSectionType = {
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepefacilis, delectus sunt natus earum mollitia dolore beatae optioincidunt rerum laborum similique reprehenderit accusamusrepellat?',
     },
   ],
-};
+}

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Language, Logo, Menu, MenuItem, MenuOptions } from '../components';
+import React from 'react'
+import { Language, Logo, Menu, MenuItem, MenuOptions } from './components'
 import {
   languageData,
   loginData,
@@ -8,7 +8,7 @@ import {
   registerData,
   sendMoneyData,
   trackTransferData,
-} from '../data';
+} from './data'
 
 export const Header = () => {
   return (
@@ -23,5 +23,5 @@ export const Header = () => {
         <MenuItem {...loginData} />
       </Menu>
     </header>
-  );
-};
+  )
+}

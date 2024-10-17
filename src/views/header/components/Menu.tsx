@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { type MenuProps } from '../types';
+import { type MenuProps } from '../../../types'
 
 export const Menu = ({ children }: MenuProps) => {
   return (
