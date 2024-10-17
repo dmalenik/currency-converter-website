@@ -5,3 +5,6 @@ export { registerData } from './registerData';
 export { loginData } from './loginData';
 export { sendMoneyData } from './sendMoneyData';
 export { trackTransferData } from './trackTransferData';
+export { registerSectionData } from './registerSectionData'
+export { sendSectionData } from './sendSectionData'
+export { transferSectionData } from './transferSectionData'

@@ -2,7 +2,7 @@ import React from 'react'
 import { LiaExchangeAltSolid } from 'react-icons/lia'
 import { SiQatarairways } from 'react-icons/si'
 import { GiEgyptianSphinx } from 'react-icons/gi'
-import { FaFlagUsa, FaLandmarkFlag } from 'react-icons/fa6'
+import { FaFlagUsa, FaLandmarkFlag, FaArrowDown } from 'react-icons/fa6'
 import { FaInfoCircle, FaSearch } from 'react-icons/fa'
 import { IoShieldCheckmark } from 'react-icons/io5'
 
@@ -16,8 +16,10 @@ export const CurrencyConverter = () => {
           currency converter calculator.
         </p>
       </header>
+      {/** Currency converter */}
       <form action=''>
         <div className='currency-converter'>
+          {/** Card */}
           <div className='card'>
             <div className='currency-value'>
               <label htmlFor='send'>Send Amount</label>
@@ -31,19 +33,19 @@ export const CurrencyConverter = () => {
           <span className='arrows-icon'>
             <LiaExchangeAltSolid />
           </span>
+          {/** Card */}
           <div className='card'>
             <div className='currency-value'>
               <label htmlFor='receive'>Receiver gets</label>
               <input type='number' id='receive' />
             </div>
-            <div>
-              {/** Currently selected currency*/}
-              <div className='current-currency'>
-                <GiEgyptianSphinx />
-                <p>EGP</p>
-              </div>
+            {/** Currently selected currency */}
+            <div className='current-currency'>
+              <GiEgyptianSphinx />
+              <p>EGP</p>
+              <FaArrowDown />
+              {/** List of available currencies for selection */}
               <div className='currencies-list'>
-                {/** Is hidden*/}
                 <div>
                   <label htmlFor='currency-search'>
                     <FaSearch />
@@ -93,6 +95,7 @@ export const CurrencyConverter = () => {
         </div>
         <button type='button'>Send money</button>
       </form>
+      {/** Info */}
       <div>
         <IoShieldCheckmark />
         <p>
