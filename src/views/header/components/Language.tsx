@@ -1,12 +1,11 @@
-import React from 'react';
+import React from 'react'
+import { BsGlobe2 } from 'react-icons/bs'
 
-import { type MenuItemProps } from '../../../types'
-
-export const Language = ({ icon, text }: MenuItemProps) => {
+export const Language = () => {
   return (
     <div>
-      {icon}
-      <p>{text}</p>
+      <BsGlobe2 />
+      <p>EN</p>
     </div>
-  );
-};
+  )
+}
