@@ -1,2 +1,2 @@
-export { Header } from './Header'
-export { Logo, Menu } from './components'
+export { Logo } from './Logo'
+export { Menu } from './Menu'

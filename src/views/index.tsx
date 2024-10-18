@@ -1,4 +1,4 @@
-export { Header } from './header'
+export { Logo, Menu } from './header'
 export { ExchangeSection } from './exchange-section'
 export { SecurityDisclaimer } from './security-disclaimer'
 export { Transfer } from './transfer'
