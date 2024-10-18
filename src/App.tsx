@@ -1,7 +1,7 @@
 import React from 'react'
 import {
   Header,
-  CurrencyConverter,
+  ExchangeSection,
   SecurityDisclaimer,
   Transfer,
   TransferApp,
@@ -15,7 +15,7 @@ function App() {
     <div className='App'>
       <Header />
       <main>
-        <CurrencyConverter />
+        <ExchangeSection />
         <SecurityDisclaimer />
         <Transfer />
         <TransferApp />

@@ -1,5 +1,5 @@
 export { Header } from './header'
-export { CurrencyConverter } from './currency-converter'
+export { ExchangeSection } from './exchange-section'
 export { SecurityDisclaimer } from './security-disclaimer'
 export { Transfer } from './transfer'
 export { TransferApp } from './transfer-app'
