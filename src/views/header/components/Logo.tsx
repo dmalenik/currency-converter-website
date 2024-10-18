@@ -1,12 +1,11 @@
-import React from 'react';
+import React from 'react'
+import { MdAnchor } from 'react-icons/md'
 
-import { type MenuItemProps } from '../../../types'
-
-export const Logo = ({ icon, text }: MenuItemProps) => {
+export const Logo = () => {
   return (
     <div>
-      {icon}
-      <p>{text}</p>
+      <MdAnchor />
+      <p>Logo</p>
     </div>
-  );
-};
+  )
+}
