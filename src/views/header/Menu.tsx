@@ -1,16 +1,17 @@
 import React from 'react'
-import { MenuItem, Language } from './components'
+import { Link } from '../../components'
 import { CiMenuBurger } from 'react-icons/ci'
+import { Language } from './Language'
 
 export const Menu = () => {
   return (
     <nav>
       <ul>
         <li>
-          <MenuItem text={'Send money'} />
+          <Link text={'Send money'} />
         </li>
         <li>
-          <MenuItem text={'Track a transfer'} />
+          <Link text={'Track a transfer'} />
         </li>
         <li>
           <CiMenuBurger />
@@ -19,10 +20,10 @@ export const Menu = () => {
           <Language />
         </li>
         <li>
-          <MenuItem text={'Register'} />
+          <Link text={'Register'} />
         </li>
         <li>
-          <MenuItem text={'Log In'} />
+          <Link text={'Log In'} />
         </li>
       </ul>
     </nav>
