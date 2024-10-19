@@ -6,7 +6,7 @@ import {
   SecurityDisclaimer,
   Transfer,
   TransferApp,
-  Disclaimer,
+  DisclaimerSection,
   Map,
   FooterNavigation,
 } from './views'
@@ -23,7 +23,7 @@ function App() {
         <SecurityDisclaimer />
         <Transfer />
         <TransferApp />
-        <Disclaimer />
+        <DisclaimerSection />
       </main>
       <footer>
         <Map />

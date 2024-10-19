@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Disclaimer = () => {
+export const DisclaimerSection = () => {
   return (
     <section>
       <p>

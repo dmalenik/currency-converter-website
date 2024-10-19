@@ -1,1 +1,1 @@
-export { Disclaimer } from './Disclaimer'
+export { DisclaimerSection } from './DisclaimerSection'
