@@ -1,6 +1,8 @@
 import React from 'react'
 
-export const Header = (props: any) => {
+import { type HeaderProps } from '../types'
+
+export const Header = (props: HeaderProps) => {
   return (
     <header>
       <h1>{props.title}</h1>
