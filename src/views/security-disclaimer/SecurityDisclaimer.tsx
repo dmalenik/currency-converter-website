@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaUnlockAlt } from 'react-icons/fa'
 import { FaListCheck } from 'react-icons/fa6'
-import { Disclaimer } from './Disclaimer'
+import { Disclaimer } from '../../components'
 
 export const SecurityDisclaimer = () => {
   return (

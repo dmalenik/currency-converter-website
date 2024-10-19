@@ -1,6 +1,7 @@
 import React from 'react'
 import { Exchange } from './components'
 import { IoShieldCheckmark } from 'react-icons/io5'
+import { Disclaimer } from '../../components'
 
 export const ExchangeSection = () => {
   return (
@@ -14,13 +15,12 @@ export const ExchangeSection = () => {
       </header>
       <Exchange />
       <footer>
-        <IoShieldCheckmark />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-          inquibusdam minus magni pariatur nobis non, aut, animi officia
-          dolorumarchitecto, consequatur soluta assumenda sed aspernatur
-          voluptatum!
-        </p>
+        <Disclaimer
+          icon={<IoShieldCheckmark />}
+          description={
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequiinquibusdam minus magni pariatur nobis non, aut, animi officiadolorumarchitecto, consequatur soluta assumenda sed aspernaturvoluptatum!'
+          }
+        />
       </footer>
     </section>
   )
