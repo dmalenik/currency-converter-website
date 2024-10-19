@@ -8,10 +8,10 @@ export const Menu = () => {
     <nav>
       <ul>
         <li>
-          <Link text={'Send money'} />
+          <Link description={'Send money'} />
         </li>
         <li>
-          <Link text={'Track a transfer'} />
+          <Link description={'Track a transfer'} />
         </li>
         <li>
           <CiMenuBurger />
@@ -20,10 +20,10 @@ export const Menu = () => {
           <Language />
         </li>
         <li>
-          <Link text={'Register'} />
+          <Link description={'Register'} />
         </li>
         <li>
-          <Link text={'Log In'} />
+          <Link description={'Log In'} />
         </li>
       </ul>
     </nav>
