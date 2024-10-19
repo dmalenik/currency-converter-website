@@ -1,3 +1,3 @@
-export { type MenuItemProps } from '../views/header/types/menuItemProps'
+export { type LinkProps } from './LinkProps'
 export { type MenuProps } from './menuType'
 export { type TransferSectionType } from './transferSectionType'

@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-export type MenuItemProps = {
+export type LinkProps = {
   icon?: ReactNode;
-  text?: string;
+  description?: string;
 };

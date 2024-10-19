@@ -1,11 +1,11 @@
 import React from 'react'
 
-import { type MenuItemProps } from '../views/header/types'
+import { type LinkProps } from '../types'
 
-export const Link = ({ text }: MenuItemProps) => {
+export const Link = (props: LinkProps) => {
   return (
     <button disabled type='button'>
-      {text}
+      {props.description}
     </button>
   )
 }
