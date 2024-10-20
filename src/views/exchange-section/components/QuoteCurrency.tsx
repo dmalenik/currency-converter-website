@@ -7,8 +7,8 @@ export const QuoteCurrency = () => {
   return (
     <div>
       <div>
-        <label htmlFor='send'>Receiver gets</label>
-        <input type='number' id='send' />
+        <label htmlFor='receive'>Receiver gets</label>
+        <input type='number' id='receive' />
       </div>
       <div>
         <GiEgyptianSphinx />
