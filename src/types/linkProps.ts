@@ -1,6 +1,7 @@
-import { ReactNode } from "react";
+import { ReactNode } from 'react'
 
 export type LinkProps = {
-  icon?: ReactNode;
-  description?: string;
-};
+  icon?: ReactNode
+  description?: string | ReactNode
+  ariaLabel?: string
+}
