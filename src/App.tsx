@@ -3,7 +3,7 @@ import {
   Logo,
   Menu,
   ExchangeSection,
-  SecurityDisclaimer,
+  SecurityDisclaimerSection,
   Transfer,
   TransferApp,
   DisclaimerSection,
@@ -20,7 +20,7 @@ function App() {
       </header>
       <main>
         <ExchangeSection />
-        <SecurityDisclaimer />
+        <SecurityDisclaimerSection />
         <Transfer />
         <TransferApp />
         <DisclaimerSection />

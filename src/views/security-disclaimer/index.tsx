@@ -1,1 +1,1 @@
-export { SecurityDisclaimer } from './SecurityDisclaimer'
+export { SecurityDisclaimerSection } from './SecurityDisclaimerSection'

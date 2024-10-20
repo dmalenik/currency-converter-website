@@ -1,4 +1,4 @@
-export { Disclaimer } from './Disclaimer'
+export { SecurityDisclaimer } from './SecurityDisclaimer'
 export { Header } from './Header'
 export { Action } from './Action'
 export { List } from './List'

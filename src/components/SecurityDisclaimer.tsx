@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Disclaimer = (props: any) => {
+export const SecurityDisclaimer = (props: any) => {
   return (
     <div>
       {props.icon}

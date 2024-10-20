@@ -1,6 +1,6 @@
 export { Logo, Menu } from './header'
 export { ExchangeSection } from './exchange-section'
-export { SecurityDisclaimer } from './security-disclaimer'
+export { SecurityDisclaimerSection } from './security-disclaimer'
 export { Transfer } from './transfer'
 export { TransferApp } from './transfer-app'
 export { DisclaimerSection } from './disclaimer'
