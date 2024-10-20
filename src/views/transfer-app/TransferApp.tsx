@@ -1,98 +1,62 @@
-import React from 'react';
-import {
-  FaCheckCircle,
-  FaRegStar,
-  FaApple,
-  FaGooglePlay,
-} from 'react-icons/fa';
-import { IoMdPhonePortrait } from 'react-icons/io';
+import React from 'react'
+import { FaCheckCircle, FaApple, FaGooglePlay } from 'react-icons/fa'
+import { IoMdPhonePortrait } from 'react-icons/io'
+import { Header, List, Link } from '../../components'
+import { Rating } from './Rating'
 
 export const TransferApp = () => {
   return (
     <section>
-      <div>
-        <header>
-          <h2>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos.
-          </h2>
-          <ul>
-            <li>
-              <div>
-                <FaCheckCircle />
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-                  vitae inventore nulla sequi!
-                </p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <FaCheckCircle />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <FaCheckCircle />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-              </div>
-            </li>
-          </ul>
-          <button type="button">Download now</button>
-        </header>
-        <div className="app">
-          <div className="rating">
-            <div className="ratings">
-              <div className="marks">
-                <p>
-                  4.5<span>/5</span>
-                </p>
-                <div className="stars">
-                  <FaRegStar />
-                  <FaRegStar />
-                  <FaRegStar />
-                  <FaRegStar />
-                  <FaRegStar />
-                </div>
-              </div>
-              <div className="marks">
-                <p>
-                  4.5<span>/5</span>
-                </p>
-                <div className="stars">
-                  <FaRegStar />
-                  <FaRegStar />
-                  <FaRegStar />
-                  <FaRegStar />
-                  <FaRegStar />
-                </div>
-              </div>
-            </div>
-            <p className="ratings-description">
-              Lorem ipsum dolor sit amet consectetur.
-            </p>
+      <div className='app'>
+        <Header
+          title={
+            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos.'
+          }
+        />
+        <List
+          list={[
+            {
+              id: '1',
+              icon: <FaCheckCircle />,
+              description:
+                'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quovitae inventore nulla sequi!',
+            },
+            {
+              id: '2',
+              icon: <FaCheckCircle />,
+              description:
+                'Lorem ipsum dolor sit amet consectetur adipisicing.',
+            },
+            {
+              id: '3',
+              icon: <FaCheckCircle />,
+              description:
+                'Lorem ipsum dolor sit amet consectetur adipisicing.',
+            },
+          ]}
+        />
+        <Link description={'Download now'} />
+        <div className='downloads'>
+          <div className='rating'>
+            <Rating rating={4} />
+            <Rating rating={4} />
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
           </div>
-          <div className="apps">
-            <button
-              type="button"
-              disabled
-              aria-label="Download app in App Store"
-            >
-              <FaApple />
-            </button>
-            <button
-              type="button"
-              disabled
-              aria-label="Download app in Google Play Store"
-            >
-              <FaGooglePlay />
-            </button>
+          <div className='markets'>
+            <Link
+              description={<FaApple />}
+              ariaLabel={'Download app in App Store'}
+            />
+            <Link
+              description={<FaGooglePlay />}
+              ariaLabel={'Download app in Google Play Store'}
+            />
           </div>
         </div>
       </div>
-      <div>
+      <div className='banner'>
         <IoMdPhonePortrait />
       </div>
     </section>
-  );
-};
+  )
+}
