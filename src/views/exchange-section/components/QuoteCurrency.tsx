@@ -1,7 +1,7 @@
 import React from 'react'
+import { Search } from '../../../components'
 import { GiEgyptianSphinx } from 'react-icons/gi'
-import { FaArrowDown } from 'react-icons/fa6'
-import { CurrencySearchList } from './CurrencySearchList'
+import { FaFlagUsa, FaLandmarkFlag } from 'react-icons/fa6'
 
 export const QuoteCurrency = () => {
   return (
@@ -10,12 +10,13 @@ export const QuoteCurrency = () => {
         <label htmlFor='receive'>Receiver gets</label>
         <input type='number' id='receive' />
       </div>
-      <div>
-        <GiEgyptianSphinx />
-        <p>EGP</p>
-        <FaArrowDown />
-        <CurrencySearchList />
-      </div>
+      <Search
+        items={[
+          { icon: <GiEgyptianSphinx />, description: 'EGP' },
+          { icon: <FaFlagUsa />, description: 'USD' },
+          { icon: <FaLandmarkFlag />, description: 'UAH' },
+        ]}
+      />
     </div>
   )
 }
