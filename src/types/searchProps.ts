@@ -1,5 +1,5 @@
-import { CardProps } from './cardProps'
+import { ReactNode } from 'react'
 
 export type SearchProps = {
-  items: CardProps[]
+  items: ReactNode[]
 }

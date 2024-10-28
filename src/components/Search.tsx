@@ -1,20 +1,26 @@
 import React from 'react'
-import { Card } from './Card'
-import { FaArrowDown } from 'react-icons/fa'
-import { SearchList } from './SearchList'
+import { FaArrowDown, FaSearch } from 'react-icons/fa'
+import { UnorderedList } from './UnorderedList'
 
 import { type SearchProps } from '../types'
 
 export const Search = (props: SearchProps) => {
   return (
     <div>
-      {/** TODO: set base state for searching */}
-      <Card
-        icon={props.items[0].icon}
-        description={props.items[0].description}
-      />
-      <FaArrowDown />
-      <SearchList items={props.items} />
+      {/** TODO: set base state for Link component below */}
+      <div>
+        {props.items[0]}
+        <FaArrowDown />
+      </div>
+      <div className='container'>
+        <div className='search'>
+          <label htmlFor='search-field'>
+            <FaSearch />
+          </label>
+          <input type='search' id='search-field' placeholder='Search' />
+        </div>
+        <UnorderedList>{props.items}</UnorderedList>
+      </div>
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
-import { Search } from '../../../components'
 import { GiEgyptianSphinx } from 'react-icons/gi'
 import { FaFlagUsa, FaLandmarkFlag } from 'react-icons/fa6'
+import { Link, Search } from '../../../components'
 
 export const QuoteCurrency = () => {
   return (
@@ -12,9 +12,9 @@ export const QuoteCurrency = () => {
       </div>
       <Search
         items={[
-          { icon: <GiEgyptianSphinx />, description: 'EGP' },
-          { icon: <FaFlagUsa />, description: 'USD' },
-          { icon: <FaLandmarkFlag />, description: 'UAH' },
+          <Link icon={<GiEgyptianSphinx />} description={'EGP'} />,
+          <Link icon={<FaFlagUsa />} description={'USD'} />,
+          <Link icon={<FaLandmarkFlag />} description={'UAH'} />,
         ]}
       />
     </div>
