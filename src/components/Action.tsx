@@ -1,6 +1,8 @@
 import React from 'react'
 
-export const Action = (props: any) => {
+import { type ActionProps } from '../types/'
+
+export const Action = (props: ActionProps) => {
   return (
     <button type='button' disabled>
       {props.action}
