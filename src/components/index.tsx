@@ -1,7 +1,7 @@
 export { SecurityDisclaimer } from './SecurityDisclaimer'
 export { Header } from './Header'
 export { Action } from './Action'
-export { List } from './List'
+export { UnorderedList } from './UnorderedList'
 export { Card } from './Card'
 export { Link } from './Link'
 export { SearchList } from './SearchList'

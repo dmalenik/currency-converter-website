@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 
-export const UnorderedList = (props: any) => {
+import { type UnorderedListProps } from '../types'
+
+export const UnorderedList = (props: UnorderedListProps) => {
   return (
     <ul>
-      {props.children.map((c: any) => (
+      {props.children.map((c: ReactNode) => (
         <li>{c}</li>
       ))}
     </ul>
