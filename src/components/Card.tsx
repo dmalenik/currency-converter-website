@@ -1,6 +1,8 @@
 import React from 'react'
 
-export const Card = (props: any) => {
+import {type CardProps } from '../types'
+
+export const Card = (props: CardProps) => {
   return (
     <div>
       {props.icon}

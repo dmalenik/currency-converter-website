@@ -1,7 +1,8 @@
 import { ReactNode } from 'react'
 
 export type CardProps = {
-  icon: ReactNode
+  id?: string
+  icon?: ReactNode
   title?: string
   description: string
 }
