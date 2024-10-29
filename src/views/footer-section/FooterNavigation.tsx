@@ -10,7 +10,7 @@ export const FooterNavigation = () => {
       {/** Change section to div */}
       <div>
         <div>
-          {/** Footer navigation */}
+          {/** Footer menu */}
           <ul>
             <li>
               <button type='button'>Home</button>
