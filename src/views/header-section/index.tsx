@@ -1,1 +1,1 @@
-export { HeaderSection } from './HeaderSection'
+export { Header } from './Header'

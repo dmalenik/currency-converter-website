@@ -2,7 +2,7 @@ import React from 'react'
 import { Logo } from './Logo'
 import { Menu } from './Menu'
 
-export const HeaderSection = () => {
+export const Header = () => {
   return (
     <header>
       <Logo />

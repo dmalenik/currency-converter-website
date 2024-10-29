@@ -1,4 +1,4 @@
-export { HeaderSection } from './header-section'
+export { Header } from './header-section'
 export { ExchangeSection } from './exchange-section'
 export { SecurityDisclaimerSection } from './security-disclaimer'
 export { Transfer } from './transfer'

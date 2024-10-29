@@ -1,5 +1,5 @@
 export { SecurityDisclaimer } from './SecurityDisclaimer'
-export { Header } from './Header'
+export { Heading } from './Heading'
 export { Action } from './Action'
 export { UnorderedList } from './UnorderedList'
 export { Card } from './Card'
