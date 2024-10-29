@@ -24,9 +24,9 @@ function App() {
         <Transfer />
         <TransferApp />
         <DisclaimerSection />
+        <Map />
       </main>
       <footer>
-        <Map />
         <FooterNavigation />
       </footer>
     </div>
