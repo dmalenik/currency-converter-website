@@ -1,7 +1,6 @@
 import React from 'react'
 import {
-  Logo,
-  Menu,
+  HeaderSection,
   ExchangeSection,
   SecurityDisclaimerSection,
   Transfer,
@@ -14,10 +13,7 @@ import {
 function App() {
   return (
     <div className='App'>
-      <header>
-        <Logo />
-        <Menu />
-      </header>
+      <HeaderSection />
       <main>
         <ExchangeSection />
         <SecurityDisclaimerSection />
