@@ -6,7 +6,7 @@ export const Card = (props: CardProps) => {
   return (
     <div>
       {props.icon}
-      <h3>{props.title}</h3>
+      <h4>{props.title}</h4>
       <p>{props.description}</p>
     </div>
   )
