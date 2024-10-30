@@ -6,7 +6,7 @@ import { Search, Link, Markets, UnorderedList, Heading } from '../../components'
 
 export const Map = () => {
   return (
-    <section>
+    <div>
       <div>
         <Search
           items={[
@@ -71,6 +71,6 @@ export const Map = () => {
         </UnorderedList>
         <Markets />
       </div>
-    </section>
+    </div>
   )
 }
