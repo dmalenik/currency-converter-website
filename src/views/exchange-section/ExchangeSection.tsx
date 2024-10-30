@@ -1,13 +1,12 @@
 import React from 'react'
+import { Heading, SecurityDisclaimer } from '../../components'
 import { Exchange } from './components'
 import { IoShieldCheckmark } from 'react-icons/io5'
-import { Heading, SecurityDisclaimer } from '../../components'
 
 export const ExchangeSection = () => {
   return (
     <section>
       <Heading
-        // title={'Currency Converter'}
         heading={{ title: 'Currency Converter', size: 1 }}
         description={
           'Convert popular currencies at effective exchange rates with ourcurrency converter calculator.'
