@@ -1,6 +1,6 @@
 import React from 'react'
 import { FooterMenu } from './FooterMenu'
-import { ServiceInfo } from './ServiceInfo'
+import { CompanyInfo } from './CompanyInfo'
 import { CompanyAddress } from './CompanyAddress'
 
 export const Footer = () => {
@@ -8,7 +8,7 @@ export const Footer = () => {
     <footer>
       <FooterMenu />
       <hr />
-      <ServiceInfo />
+      <CompanyInfo />
       <hr />
       <CompanyAddress />
     </footer>
