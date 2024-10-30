@@ -9,11 +9,10 @@ export const TransferApp = () => {
     <section>
       <div className='app'>
         <Heading
-          heading={{
-            title:
-              'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos.',
-            size: 3,
-          }}
+          title={
+            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos.'
+          }
+          size={3}
         />
         <UnorderedList>
           <Card
