@@ -1,10 +1,16 @@
 import React from 'react'
-import { FooterNavigation } from './FooterNavigation'
+import { FooterMenu } from './FooterMenu'
+import { ServiceInfo } from './ServiceInfo'
+import { CompanyAddress } from './CompanyAddress'
 
 export const Footer = () => {
   return (
     <footer>
-      <FooterNavigation />
+      <FooterMenu />
+      <hr />
+      <ServiceInfo />
+      <hr />
+      <CompanyAddress />
     </footer>
   )
 }
