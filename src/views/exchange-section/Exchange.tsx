@@ -8,7 +8,7 @@ export const Exchange = () => {
   return (
     <form action=''>
       <div className='transaction'>
-        <BaseCurrency/>
+        <BaseCurrency />
         <LiaExchangeAltSolid />
         <QuoteCurrency />
       </div>

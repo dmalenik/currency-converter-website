@@ -1,6 +1,6 @@
 import React from 'react'
 import { Heading, SecurityDisclaimer } from '../../components'
-import { Exchange } from './components'
+import { Exchange } from './Exchange'
 import { IoShieldCheckmark } from 'react-icons/io5'
 
 export const ExchangeSection = () => {
