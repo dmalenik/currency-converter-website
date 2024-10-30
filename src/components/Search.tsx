@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 import { FaArrowDown, FaSearch } from 'react-icons/fa'
-import { UnorderedList } from './UnorderedList'
 
 import { type SearchProps } from '../types'
 
@@ -19,7 +18,11 @@ export const Search = (props: SearchProps) => {
           </label>
           <input type='search' id='search-field' placeholder='Search' />
         </div>
-        <UnorderedList>{props.items}</UnorderedList>
+        <ul>
+          {props.items.map((i: ReactNode) => (
+            <li key={crypto.randomUUID()}>{i}</li>
+          ))}
+        </ul>
       </div>
     </div>
   )

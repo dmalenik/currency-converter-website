@@ -6,7 +6,7 @@ export const UnorderedList = (props: UnorderedListProps) => {
   return (
     <ul>
       {props.children.map((c: ReactNode) => (
-        <li>{c}</li>
+        <li key={crypto.randomUUID()}>{c}</li>
       ))}
     </ul>
   )
