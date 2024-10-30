@@ -7,7 +7,8 @@ export const ExchangeSection = () => {
   return (
     <section>
       <Heading
-        title={'Currency Converter'}
+        // title={'Currency Converter'}
+        heading={{ title: 'Currency Converter', size: 1 }}
         description={
           'Convert popular currencies at effective exchange rates with ourcurrency converter calculator.'
         }

@@ -8,9 +8,11 @@ export const Transfer = () => {
   return (
     <section>
       <Heading
-        title={
-          "Our customers made millons of transfers with Western Union last year. Here's why:"
-        }
+        heading={{
+          title:
+            "Our customers made millons of transfers with Western Union last year. Here's why:",
+          size: 3,
+        }}
       />
       <UnorderedList>
         <Card
@@ -43,7 +45,9 @@ export const Transfer = () => {
         />
       </UnorderedList>
       <section>
-        <Heading title={'Register to start sending money today.'} />
+        <Heading
+          heading={{ title: 'Register to start sending money today.', size: 4 }}
+        />
         <Action action={'Register now'} />
         <UnorderedList>
           <Card
@@ -73,7 +77,12 @@ export const Transfer = () => {
         </UnorderedList>
       </section>
       <section>
-        <Heading title={'Lorem ipsum dolor sit amet consectetur adipisicing.'} />
+        <Heading
+          heading={{
+            title: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
+            size: 3,
+          }}
+        />
         <Action action={'Send money'} />
       </section>
     </section>

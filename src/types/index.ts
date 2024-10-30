@@ -1,7 +1,7 @@
 export { type LinkProps } from './linkProps'
 export { type MenuProps } from './menuType'
 export { type TransferSectionType } from './transferSectionType'
-export { type HeaderProps } from './headerProps'
+export { type HeadingProps } from './headingProps'
 export { type CardProps } from './cardProps'
 export { type SecurityDisclaimerProps } from './securityDisclaimerProps'
 export { type SearchProps } from './searchProps'
