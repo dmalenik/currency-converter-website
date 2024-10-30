@@ -2,7 +2,7 @@ import React from 'react'
 import { SiQatarairways } from 'react-icons/si'
 import { GiGrainBundle, GiEgyptianSphinx, GiSpain } from 'react-icons/gi'
 import { FaFlagUsa } from 'react-icons/fa6'
-import { Search, Link, Markets, UnorderedList, Header } from '../../components'
+import { Search, Link, Markets, UnorderedList, Heading } from '../../components'
 
 export const Map = () => {
   return (
@@ -16,7 +16,7 @@ export const Map = () => {
           ]}
         />
         <section>
-          <Header title={'Money transfer'} />
+          <Heading title={'Money transfer'} />
           <UnorderedList>
             <Link description={'Lorem ipsum dolor sit amet.'} />
             <Link description={'Lorem ipsum dolor sit amet.'} />
@@ -27,7 +27,7 @@ export const Map = () => {
           </UnorderedList>
         </section>
         <section>
-          <Header title={'Support'} />
+          <Heading title={'Support'} />
           <UnorderedList>
             <Link description={'Lorem ipsum dolor sit amet.'} />
             <Link description={'Lorem ipsum dolor sit amet.'} />
@@ -36,7 +36,7 @@ export const Map = () => {
           </UnorderedList>
         </section>
         <section>
-          <Header title={'Quick links'} />
+          <Heading title={'Quick links'} />
           <UnorderedList>
             <Link description={'Lorem ipsum dolor sit amet.'} />
             <Link description={'Lorem ipsum dolor sit amet.'} />
@@ -47,7 +47,7 @@ export const Map = () => {
           </UnorderedList>
         </section>
         <section>
-          <Header title={'Legal'} />
+          <Heading title={'Legal'} />
           <UnorderedList>
             <Link description={'Lorem ipsum dolor sit amet.'} />
             <Link description={'Lorem ipsum dolor sit amet.'} />

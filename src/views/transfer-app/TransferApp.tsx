@@ -1,14 +1,18 @@
 import React from 'react'
 import { FaCheckCircle } from 'react-icons/fa'
 import { IoMdPhonePortrait } from 'react-icons/io'
-import { Header, UnorderedList, Link, Card, Markets } from '../../components'
+import { Heading, UnorderedList, Link, Card, Markets } from '../../components'
 import { Rating } from './Rating'
 
 export const TransferApp = () => {
   return (
     <section>
       <div className='app'>
-        <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos.</h2>
+        <Heading
+          title={
+            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos.'
+          }
+        />
         <UnorderedList>
           <Card
             icon={<FaCheckCircle />}

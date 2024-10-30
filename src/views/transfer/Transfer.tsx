@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, UnorderedList, Action, Card } from '../../components'
+import { Heading, UnorderedList, Action, Card } from '../../components'
 import { FaHeart, FaShieldAlt } from 'react-icons/fa'
 import { LuClock4 } from 'react-icons/lu'
 import { FaGlobe } from 'react-icons/fa6'
@@ -7,7 +7,7 @@ import { FaGlobe } from 'react-icons/fa6'
 export const Transfer = () => {
   return (
     <section>
-      <Header
+      <Heading
         title={
           "Our customers made millons of transfers with Western Union last year. Here's why:"
         }
@@ -43,7 +43,7 @@ export const Transfer = () => {
         />
       </UnorderedList>
       <section>
-        <Header title={'Register to start sending money today.'} />
+        <Heading title={'Register to start sending money today.'} />
         <Action action={'Register now'} />
         <UnorderedList>
           <Card
@@ -73,7 +73,7 @@ export const Transfer = () => {
         </UnorderedList>
       </section>
       <section>
-        <Header title={'Lorem ipsum dolor sit amet consectetur adipisicing.'} />
+        <Heading title={'Lorem ipsum dolor sit amet consectetur adipisicing.'} />
         <Action action={'Send money'} />
       </section>
     </section>
