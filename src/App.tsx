@@ -7,7 +7,7 @@ import {
   TransferApp,
   DisclaimerSection,
   Map,
-  FooterNavigation,
+  Footer,
 } from './views'
 
 function App() {
@@ -22,9 +22,7 @@ function App() {
         <DisclaimerSection />
         <Map />
       </main>
-      <footer>
-        <FooterNavigation />
-      </footer>
+      <Footer />
     </div>
   )
 }
