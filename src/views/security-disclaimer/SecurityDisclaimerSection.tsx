@@ -5,7 +5,7 @@ import { SecurityDisclaimer } from '../../components'
 
 export const SecurityDisclaimerSection = () => {
   return (
-    <section>
+    <div>
       <SecurityDisclaimer
         icon={<FaUnlockAlt />}
         description={'We encrypt your transfers.'}
@@ -14,6 +14,6 @@ export const SecurityDisclaimerSection = () => {
         icon={<FaListCheck />}
         description={'We are committed to keeping your data secure.'}
       />
-    </section>
+    </div>
   )
 }
