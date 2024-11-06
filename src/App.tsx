@@ -13,7 +13,7 @@ import {
 function App() {
   return (
     <div className='App' data-testid='app'>
-      <Header data-testid='header' />
+      <Header />
       <main data-testid='main'>
         <ExchangeSection />
         <SecurityDisclaimerSection />
@@ -22,7 +22,7 @@ function App() {
         <DisclaimerSection />
         <Map />
       </main>
-      <Footer data-testid='footer' />
+      <Footer />
     </div>
   )
 }

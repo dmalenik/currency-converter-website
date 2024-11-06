@@ -4,7 +4,7 @@ import { Menu } from './Menu'
 
 export const Header = () => {
   return (
-    <header>
+    <header data-testid='header'>
       <Logo />
       <Menu />
     </header>

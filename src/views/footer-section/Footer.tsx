@@ -5,7 +5,7 @@ import { CompanyAddress } from './CompanyAddress'
 
 export const Footer = () => {
   return (
-    <footer>
+    <footer data-testid="footer">
       <FooterMenu />
       <hr />
       <CompanyInfo />
