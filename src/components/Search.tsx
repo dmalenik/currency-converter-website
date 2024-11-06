@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react'
 import { FaArrowDown, FaSearch } from 'react-icons/fa'
+import { v4 as uuidv4 } from 'uuid'
 
 import { type SearchProps } from '../types'
 
@@ -20,7 +21,7 @@ export const Search = (props: SearchProps) => {
         </div>
         <ul>
           {props.items.map((i: ReactNode) => (
-            <li key={crypto.randomUUID()}>{i}</li>
+            <li key={uuidv4()}>{i}</li>
           ))}
         </ul>
       </div>
