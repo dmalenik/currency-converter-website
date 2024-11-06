@@ -12,9 +12,9 @@ import {
 
 function App() {
   return (
-    <div className='App'>
-      <Header />
-      <main>
+    <div className='App' data-testid='app'>
+      <Header data-testid='header' />
+      <main data-testid='main'>
         <ExchangeSection />
         <SecurityDisclaimerSection />
         <Transfer />
@@ -22,7 +22,7 @@ function App() {
         <DisclaimerSection />
         <Map />
       </main>
-      <Footer />
+      <Footer data-testid='footer' />
     </div>
   )
 }
