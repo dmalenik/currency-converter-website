@@ -2,19 +2,19 @@ import React from 'react'
 
 import { type HeadingProps } from '../types'
 
-export const Heading = (props: HeadingProps) => {
+export const Heading = ({ title, level, description }: HeadingProps) => {
   return (
-    <header>
-      {props.size === 1 ? (
-        <h1>{props.title}</h1>
-      ) : props.size === 3 ? (
-        <h3>{props.title}</h3>
-      ) : props.size === 4 ? (
-        <h4>{props.title}</h4>
-      ) : props.size === 6 ? (
-        <h6>{props.title}</h6>
+    <header data-testid='heading'>
+      {level === 1 ? (
+        <h1 data-testid='h1'>{title}</h1>
+      ) : level === 3 ? (
+        <h3 data-testid='h3'>{title}</h3>
+      ) : level === 4 ? (
+        <h4 data-testid='h4'>{title}</h4>
+      ) : level === 6 ? (
+        <h6 data-testid='h6'>{title}</h6>
       ) : undefined}
-      {props.description ? <p>{props.description}</p> : undefined}
+      {description ? <p data-testid='description'>{description}</p> : undefined}
     </header>
   )
 }
