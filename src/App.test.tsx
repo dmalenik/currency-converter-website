@@ -2,13 +2,22 @@ import React from 'react'
 import { render, screen } from '@testing-library/react'
 import App from './App'
 
-
 test('renders app', () => {
   render(<App />)
-  // TODO: app is presented in the document
+
   const app = screen.getByTestId('app')
   expect(app).toBeInTheDocument()
-  // TODO: app includes header section
-  // TODO: app includes main section
-  // TODO: app includes footer section
+})
+
+test('app includes header, main, and footer sections', () => {
+  render(<App />)
+
+  const app = screen.getByTestId('app')
+  const header = screen.getByTestId('header')
+  const main = screen.getByTestId('main')
+  const footer = screen.getByTestId('footer')
+
+  expect(app).toContainElement(header)
+  expect(app).toContainElement(main)
+  expect(app).toContainElement(footer)
 })
