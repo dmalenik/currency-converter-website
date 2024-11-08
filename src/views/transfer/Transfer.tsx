@@ -11,7 +11,7 @@ export const Transfer = () => {
         title={
           "Our customers made millons of transfers with Western Union last year. Here's why:"
         }
-        size={3}
+        level={3}
       />
       <UnorderedList>
         <Card
@@ -44,7 +44,7 @@ export const Transfer = () => {
         />
       </UnorderedList>
       <section>
-        <Heading title={'Register to start sending money today.'} size={4} />
+        <Heading title={'Register to start sending money today.'} level={4} />
         <Action action={'Register now'} />
         <UnorderedList>
           <Card
@@ -76,7 +76,7 @@ export const Transfer = () => {
       <section>
         <Heading
           title={'Lorem ipsum dolor sit amet consectetur adipisicing.'}
-          size={3}
+          level={3}
         />
         <Action action={'Send money'} />
       </section>

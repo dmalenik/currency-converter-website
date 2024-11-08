@@ -12,7 +12,7 @@ export const TransferApp = () => {
           title={
             'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos.'
           }
-          size={3}
+          level={3}
         />
         <UnorderedList>
           <Card

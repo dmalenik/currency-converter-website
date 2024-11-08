@@ -16,7 +16,7 @@ export const Map = () => {
           ]}
         />
         <section>
-          <Heading title={'Money transfer'} size={6} />
+          <Heading title={'Money transfer'} level={6} />
           <UnorderedList>
             <Link description={'Lorem ipsum dolor sit amet.'} />
             <Link description={'Lorem ipsum dolor sit amet.'} />
@@ -27,7 +27,7 @@ export const Map = () => {
           </UnorderedList>
         </section>
         <section>
-          <Heading title={'Support'} size={6} />
+          <Heading title={'Support'} level={6} />
           <UnorderedList>
             <Link description={'Lorem ipsum dolor sit amet.'} />
             <Link description={'Lorem ipsum dolor sit amet.'} />
@@ -36,7 +36,7 @@ export const Map = () => {
           </UnorderedList>
         </section>
         <section>
-          <Heading title={'Quick links'} size={6} />
+          <Heading title={'Quick links'} level={6} />
           <UnorderedList>
             <Link description={'Lorem ipsum dolor sit amet.'} />
             <Link description={'Lorem ipsum dolor sit amet.'} />
@@ -47,7 +47,7 @@ export const Map = () => {
           </UnorderedList>
         </section>
         <section>
-          <Heading title={'Legal'} size={6} />
+          <Heading title={'Legal'} level={6} />
           <UnorderedList>
             <Link description={'Lorem ipsum dolor sit amet.'} />
             <Link description={'Lorem ipsum dolor sit amet.'} />
