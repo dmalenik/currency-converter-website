@@ -16,10 +16,10 @@ export const FooterMenu = () => {
         <Link description={'Report a security bug'} ariaLabel='report a bug' />
       </UnorderedList>
       <UnorderedList>
-        <Link description={<FaFacebook />} ariaLabel='facebook' />
-        <Link description={<FaYoutube />} ariaLabel='youtube' />
-        <Link description={<BsInstagram />} ariaLabel='instagram' />
-        <Link description={<FaXTwitter />} ariaLabel='twitter' />
+        <Link icon={<FaFacebook />} ariaLabel='facebook' />
+        <Link icon={<FaYoutube />} ariaLabel='youtube' />
+        <Link icon={<BsInstagram />} ariaLabel='instagram' />
+        <Link icon={<FaXTwitter />} ariaLabel='twitter' />
       </UnorderedList>
     </div>
   )
