@@ -6,14 +6,26 @@ export const CompanyInfo = () => {
   return (
     <div>
       <UnorderedList>
-        <Link description={'Investore relations'} />
-        <Link description={'Careers'} />
-        <Link description={'Western Union Foundation'} />
-        <Link description={'Intellectual property'} />
-        <Link description={'Help'} />
-        <Link description={'Cookie information'} />
-        <Link description={'Online Privacy Statement'} />
-        <Link description={'Terms of service'} />
+        <Link
+          description={'Investore relations'}
+          ariaLabel='investor relations'
+        />
+        <Link description={'Careers'} ariaLabel='careers' />
+        <Link
+          description={'Western Union Foundation'}
+          ariaLabel='Western Union Foundation'
+        />
+        <Link
+          description={'Intellectual property'}
+          ariaLabel='intellectual property'
+        />
+        <Link description={'Help'} ariaLabel='help' />
+        <Link description={'Cookie information'} ariaLabel='cookies' />
+        <Link
+          description={'Online Privacy Statement'}
+          ariaLabel='online privacy statement'
+        />
+        <Link description={'Terms of service'} ariaLabel='terms of service' />
       </UnorderedList>
       <Copyright />
     </div>

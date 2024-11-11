@@ -2,15 +2,15 @@ import React from 'react'
 
 import { type LinkProps } from '../types'
 
-export const Link = (props: LinkProps) => {
-  // replace button with a tag
+export const Link = ({ icon, description, ariaLabel }: LinkProps) => {
+  // TODO: replace button with a tag
   return (
     <button
       disabled
       type='button'
-      aria-label={props.ariaLabel ? props.ariaLabel : ''}
+      aria-label={ariaLabel}
     >
-      {props.description}
+      {description}
     </button>
   )
 }

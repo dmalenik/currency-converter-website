@@ -12,9 +12,17 @@ export const QuoteCurrency = () => {
       </div>
       <Search
         items={[
-          <Link icon={<GiEgyptianSphinx />} description={'EGP'} />,
-          <Link icon={<FaFlagUsa />} description={'USD'} />,
-          <Link icon={<FaLandmarkFlag />} description={'UAH'} />,
+          <Link
+            icon={<GiEgyptianSphinx />}
+            description={'EGP'}
+            ariaLabel='EGP'
+          />,
+          <Link icon={<FaFlagUsa />} description={'USD'} ariaLabel='USD' />,
+          <Link
+            icon={<FaLandmarkFlag />}
+            description={'UAH'}
+            ariaLabel='UAH'
+          />,
         ]}
       />
     </div>
