@@ -3,11 +3,13 @@ import { v4 as uuidv4 } from 'uuid'
 
 import { type UnorderedListProps } from '../types'
 
-export const UnorderedList = (props: UnorderedListProps) => {
+export const UnorderedList = ({ children }: UnorderedListProps) => {
   return (
-    <ul>
-      {props.children.map((c: ReactNode) => (
-        <li key={uuidv4()}>{c}</li>
+    <ul data-testid='unordered-list'>
+      {children.map((c: ReactNode) => (
+        <li key={uuidv4()} data-testid='unordered-list-child'>
+          {c}
+        </li>
       ))}
     </ul>
   )
