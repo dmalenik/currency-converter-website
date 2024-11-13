@@ -7,12 +7,12 @@ export const Menu = () => {
   return (
     <nav>
       <UnorderedList>
-        <Link description={'Send money'} ariaLabel='send money' />
-        <Link description={'Track a transfer'} ariaLabel='track transfer' />
+        <Link description={'Send money'} ariaLabel='Send money' />
+        <Link description={'Track a transfer'} ariaLabel='Track transfer' />
         <CiMenuBurger />
         <Language />
-        <Link description={'Register'} ariaLabel='register' />
-        <Link description={'Log In'} ariaLabel='log in' />
+        <Link description={'Register'} ariaLabel='Register' />
+        <Link description={'Log In'} ariaLabel='Log in' />
       </UnorderedList>
     </nav>
   )
