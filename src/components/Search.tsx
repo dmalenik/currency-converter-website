@@ -2,7 +2,9 @@ import React, { ReactNode } from 'react'
 import { FaArrowDown, FaSearch } from 'react-icons/fa'
 import { v4 as uuidv4 } from 'uuid'
 
-import { type SearchProps } from '../types'
+export type SearchProps = {
+  items: ReactNode[]
+}
 
 export const Search = ({ items }: SearchProps) => {
   // TODO: set base state for Link component below

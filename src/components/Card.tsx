@@ -1,6 +1,10 @@
-import React from 'react'
+import React, {ReactNode} from 'react'
 
-import { type CardProps } from '../types'
+export type CardProps = {
+  icon?: ReactNode
+  title?: string
+  description: string
+}
 
 export const Card = ({ icon, title, description }: CardProps) => {
   return (

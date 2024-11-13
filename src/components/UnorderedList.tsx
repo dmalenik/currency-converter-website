@@ -1,7 +1,9 @@
 import React, { ReactNode } from 'react'
 import { v4 as uuidv4 } from 'uuid'
 
-import { type UnorderedListProps } from '../types'
+export type UnorderedListProps = {
+  children: ReactNode[]
+}
 
 export const UnorderedList = ({ children }: UnorderedListProps) => {
   return (

@@ -1,6 +1,8 @@
 import React from 'react'
 
-import { type ActionProps } from '../types/'
+export type ActionProps = {
+  action: string
+}
 
 export const Action = ({ action }: ActionProps) => {
   return (

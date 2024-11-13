@@ -1,6 +1,9 @@
-import React from 'react'
+import React, {ReactNode} from 'react'
 
-import { type SecurityDisclaimerProps } from '../types'
+export type SecurityDisclaimerProps = {
+  icon?: ReactNode
+  description: string
+}
 
 export const SecurityDisclaimer = ({
   icon,

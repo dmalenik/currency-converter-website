@@ -1,6 +1,10 @@
-import React from 'react'
+import React, {ReactNode} from 'react'
 
-import { type LinkProps } from '../types'
+export type LinkProps = {
+  icon?: ReactNode
+  description?: string
+  ariaLabel: string
+}
 
 export const Link = ({ icon, description, ariaLabel }: LinkProps) => {
   // TODO: replace button with a tag

@@ -1,9 +1,12 @@
-export { SecurityDisclaimer } from './SecurityDisclaimer'
-export { Heading } from './Heading'
-export { Action } from './Action'
-export { UnorderedList } from './UnorderedList'
-export { Card } from './Card'
-export { Link } from './Link'
-export { Search } from './Search'
+export {
+  SecurityDisclaimer,
+  type SecurityDisclaimerProps,
+} from './SecurityDisclaimer'
+export { Heading, type HeadingProps } from './Heading'
+export { Action, type ActionProps } from './Action'
+export { UnorderedList, type UnorderedListProps } from './UnorderedList'
+export { Card, type CardProps } from './Card'
+export { Link, type LinkProps } from './Link'
+export { Search, type SearchProps } from './Search'
 export { Markets } from './Markets'
 export { Logo } from './Logo'
