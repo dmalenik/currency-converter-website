@@ -6,9 +6,9 @@ import { Link, Search } from '../../../components'
 export const QuoteCurrency = () => {
   return (
     <div data-testid='quote-currency'>
-      <div data-testid='quote-currency-field'>
+      <div>
         <label htmlFor='receive'>Receiver gets</label>
-        <input type='number' id='receive' />
+        <input type='number' id='receive' data-testid='quote-currency-field' />
       </div>
       <Search
         items={[
