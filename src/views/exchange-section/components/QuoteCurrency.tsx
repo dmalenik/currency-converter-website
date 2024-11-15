@@ -1,7 +1,7 @@
 import React from 'react'
 import { GiEgyptianSphinx } from 'react-icons/gi'
 import { FaFlagUsa, FaLandmarkFlag } from 'react-icons/fa6'
-import { Link, Search } from '../../components'
+import { Link, Search } from '../../../components'
 
 export const QuoteCurrency = () => {
   return (
