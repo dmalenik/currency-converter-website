@@ -4,9 +4,9 @@ import { FaInfoCircle } from 'react-icons/fa'
 export const Rates = () => {
   return (
     <div data-testid='currency-info'>
-      <p>FX: 1.00 QAR = 0.2693 USD</p>
-      <p>Fee: 30.00 QAR</p>
-      <div>
+      <p data-testid='rate'>FX: 1.00 QAR = 0.2693 USD</p>
+      <p data-testid='fee'>Fee: 30.00 QAR</p>
+      <div data-testid='currency-info-reference'>
         <FaInfoCircle />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum et
