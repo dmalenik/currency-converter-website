@@ -4,7 +4,7 @@ import { Copyright } from './Copyright'
 
 export const CompanyInfo = () => {
   return (
-    <div>
+    <div data-testid='company-info'>
       <UnorderedList>
         <Link
           description={'Investore relations'}

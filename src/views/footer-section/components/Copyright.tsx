@@ -3,7 +3,7 @@ import { FaRegCopyright } from 'react-icons/fa'
 
 export const Copyright = () => {
   return (
-    <div>
+    <div data-testid='copyright'>
       <div>
         <FaRegCopyright />
         <p>2021 Western Union Holdings, Inc.</p>
