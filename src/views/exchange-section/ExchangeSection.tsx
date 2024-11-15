@@ -5,7 +5,7 @@ import { IoShieldCheckmark } from 'react-icons/io5'
 
 export const ExchangeSection = () => {
   return (
-    <section>
+    <section data-testid='exchange-section'>
       <Heading
         title={'Currency Converter'}
         level={1}
@@ -14,7 +14,7 @@ export const ExchangeSection = () => {
         }
       />
       <Exchange />
-      <footer>
+      <footer data-testid='exchange-section-footer'>
         <SecurityDisclaimer
           icon={<IoShieldCheckmark />}
           description={
