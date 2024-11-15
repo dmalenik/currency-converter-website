@@ -3,17 +3,18 @@ import { BaseCurrency } from './BaseCurrency'
 import { LiaExchangeAltSolid } from 'react-icons/lia'
 import { QuoteCurrency } from './QuoteCurrency'
 import { Rates } from './Rates'
+import { Action } from '../../../components'
 
 export const Exchange = () => {
   return (
-    <form action=''>
-      <div className='transaction'>
+    <form action='' data-testid='exchange'>
+      <div data-testid='transaction'>
         <BaseCurrency />
         <LiaExchangeAltSolid />
         <QuoteCurrency />
       </div>
       <Rates />
-      <button type='button'>Send money</button>
+      <Action action={'Send money'} />
     </form>
   )
 }

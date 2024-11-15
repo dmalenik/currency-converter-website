@@ -3,7 +3,7 @@ import { FaInfoCircle } from 'react-icons/fa'
 
 export const Rates = () => {
   return (
-    <div className='currency-info'>
+    <div data-testid='currency-info'>
       <p>FX: 1.00 QAR = 0.2693 USD</p>
       <p>Fee: 30.00 QAR</p>
       <div>
