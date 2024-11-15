@@ -6,9 +6,9 @@ export const Copyright = () => {
     <div data-testid='copyright'>
       <div>
         <FaRegCopyright />
-        <p>2021 Western Union Holdings, Inc.</p>
+        <p data-testid='copyright-company'>2021 Western Union Holdings, Inc.</p>
       </div>
-      <p>All Rights Reserved</p>
+      <p data-testid='copyright-rights'>All Rights Reserved</p>
     </div>
   )
 }
