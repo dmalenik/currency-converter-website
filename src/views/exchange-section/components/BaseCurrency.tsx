@@ -4,13 +4,13 @@ import { SiQatarairways } from 'react-icons/si'
 export const BaseCurrency = () => {
   return (
     <div data-testid='base-currency'>
-      <div data-testid='base-currency-field'>
+      <div>
         <label htmlFor='send'>Send Amount</label>
-        <input type='number' id='send' />
+        <input type='number' id='send' data-testid='base-currency-field' />
       </div>
-      <div data-testid='base-currency-label'>
+      <div>
         <SiQatarairways />
-        <p>QAR</p>
+        <p data-testid='base-currency-label'>QAR</p>
       </div>
     </div>
   )
