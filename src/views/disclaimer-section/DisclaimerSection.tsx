@@ -2,8 +2,8 @@ import React from 'react'
 
 export const DisclaimerSection = () => {
   return (
-    <div>
-      <p>
+    <div data-testid="disclaimer-section">
+      <p data-testid="paragraph">
         * Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Quisvoluptatem et repellat nihil, necessitatibus impedit, pariatur
         rationedistinctio dolores omnis totam tempore blanditiis ipsa! Cumque
