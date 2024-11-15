@@ -17,8 +17,12 @@ test('Exchange contains transaction, currency-info, and button elements', () => 
   const transaction = screen.getByTestId('transaction')
   const rates = screen.getByTestId('currency-info')
   const action = screen.getByTestId('action')
+  const baseCurrency = screen.getByTestId('base-currency')
+  const quoteCurrency = screen.getByTestId('quote-currency')
 
   expect(exchange).toContainElement(transaction)
   expect(exchange).toContainElement(rates)
   expect(exchange).toContainElement(action)
+  expect(transaction).toContainElement(baseCurrency)
+  expect(transaction).toContainElement(quoteCurrency)
 })
