@@ -1,11 +1,9 @@
 import React from 'react'
-import { FooterMenu } from './FooterMenu'
-import { CompanyInfo } from './CompanyInfo'
-import { CompanyAddress } from './CompanyAddress'
+import { FooterMenu, CompanyInfo, CompanyAddress } from './components'
 
 export const Footer = () => {
   return (
-    <footer data-testid="footer">
+    <footer data-testid='footer'>
       <FooterMenu />
       <hr />
       <CompanyInfo />

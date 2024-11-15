@@ -2,7 +2,7 @@ import React from 'react'
 import { FaFacebook, FaYoutube } from 'react-icons/fa'
 import { BsInstagram } from 'react-icons/bs'
 import { FaXTwitter } from 'react-icons/fa6'
-import { UnorderedList, Link } from '../../components'
+import { UnorderedList, Link } from '../../../components'
 
 export const FooterMenu = () => {
   return (

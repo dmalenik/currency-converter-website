@@ -1,5 +1,5 @@
 import React from 'react'
-import { UnorderedList, Link } from '../../components'
+import { UnorderedList, Link } from '../../../components'
 import { Copyright } from './Copyright'
 
 export const CompanyInfo = () => {
