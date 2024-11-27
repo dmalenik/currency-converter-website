@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, UnorderedList } from '../../components'
+import { Link, UnorderedList } from '../../../components'
 import { CiMenuBurger } from 'react-icons/ci'
 import { Language } from './Language'
 

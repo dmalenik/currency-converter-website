@@ -3,9 +3,9 @@ import { BsGlobe2 } from 'react-icons/bs'
 
 export const Language = () => {
   return (
-    <div>
+    <div data-testid='language'>
       <BsGlobe2 />
-      <p>EN</p>
+      <p data-testid='en'>EN</p>
     </div>
   )
 }
