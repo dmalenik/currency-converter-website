@@ -6,7 +6,7 @@ import { UnorderedList, Link } from '../../../components'
 
 export const FooterMenu = () => {
   return (
-    <div>
+    <div data-testid='footer-menu'>
       <UnorderedList>
         <Link description={'Home'} ariaLabel='home' />
         <Link description={'About us'} ariaLabel='about us' />
