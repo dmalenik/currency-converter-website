@@ -5,7 +5,7 @@ import { Language } from './Language'
 
 export const Menu = () => {
   return (
-    <nav>
+    <nav data-testid="menu">
       <UnorderedList>
         <Link description={'Send money'} ariaLabel='Send money' />
         <Link description={'Track a transfer'} ariaLabel='Track transfer' />
