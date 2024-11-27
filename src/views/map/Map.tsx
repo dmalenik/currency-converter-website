@@ -13,7 +13,7 @@ export const Map = () => {
         <Legal />
       </div>
       <div data-testid='map-countries'>
-        <p data-testid='map-contries-text'>
+        <p data-testid='map-countries-text'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
           ad minima suscipit reiciendis aut hic minus recusandae!
         </p>
