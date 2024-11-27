@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link, UnorderedList, Heading } from '../../../components'
 
+// TODO: replace Heading component with simple heading tag
+
 export const Legal = () => {
-  // TODO: replace Heading component with simple heading tag
   return (
     <section data-testid='legal'>
       <Heading title={'Legal'} level={6} />

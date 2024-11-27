@@ -1,6 +1,7 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
 import { FooterMenu } from '../components'
+import { UnorderedList, Link } from '../../../components'
 
 test('FooterMenu renders in the document', () => {
   render(<FooterMenu />)
@@ -10,10 +11,21 @@ test('FooterMenu renders in the document', () => {
   expect(footerMenu).toBeInTheDocument()
 })
 
-test('FooterMenu contains an array of unordered lists with length equals to 2', () => {
-  render(<FooterMenu />)
+test('unordered list renders in the document', () => {
+  render(
+    <UnorderedList>
+      <Link description={'Home'} ariaLabel='home' />
+      <Link description={'About us'} ariaLabel='about us' />
+      <Link description={'Blog'} ariaLabel='blog' />
+      <Link description={'Contact us'} ariaLabel='contact us' />
+      <Link description={'Fraud awareness'} ariaLabel='fraud awareness' />
+      <Link description={'Report a security bug'} ariaLabel='report a bug' />
+    </UnorderedList>,
+  )
 
-  const unorderedListArray = screen.queryAllByTestId('unordered-list')
+  const unorderedList = screen.getByTestId('unordered-list')
+  const unorderedListChildren = screen.getAllByTestId('unordered-list-child')
 
-  expect(unorderedListArray).toHaveLength(2)
+  expect(unorderedList).toBeInTheDocument()
+  expect(unorderedListChildren).toHaveLength(6)
 })
