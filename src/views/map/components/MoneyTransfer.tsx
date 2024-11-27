@@ -4,9 +4,11 @@ import { SiQatarairways } from 'react-icons/si'
 import { GiGrainBundle } from 'react-icons/gi'
 import { FaFlagUsa } from 'react-icons/fa6'
 
+// TODO: replace Heading component with heading tag
+
 export const MoneyTransfer = () => {
   return (
-    <div>
+    <div data-testid='money-transfer'>
       <Search
         items={[
           <Link
@@ -22,7 +24,7 @@ export const MoneyTransfer = () => {
           <Link icon={<FaFlagUsa />} description={'USA'} ariaLabel='USA' />,
         ]}
       />
-      <section data-testid='money-transfer'>
+      <section data-testid='money-transfer-section'>
         <Heading title={'Money transfer'} level={6} />
         <UnorderedList>
           <Link
