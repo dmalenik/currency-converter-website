@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link, UnorderedList, Heading } from '../../../components'
 
+// TODO: replace Heading component with heading tag
+
 export const QuickLinks = () => {
   return (
     <section data-testid='quick-links'>
