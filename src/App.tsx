@@ -4,6 +4,7 @@ import {
   ExchangeSection,
   SecurityDisclaimerSection,
   Transfer,
+  Register,
   TransferApp,
   DisclaimerSection,
   Map,
@@ -18,6 +19,7 @@ function App() {
         <ExchangeSection />
         <SecurityDisclaimerSection />
         <Transfer />
+        <Register />
         <TransferApp />
         <DisclaimerSection />
         <Map />

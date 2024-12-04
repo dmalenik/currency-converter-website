@@ -1,7 +1,7 @@
 export { Header } from './header-section'
 export { ExchangeSection } from './exchange-section'
 export { SecurityDisclaimerSection } from './security-disclaimer'
-export { Transfer } from './transfer'
+export { Register } from './register-section'
 export { TransferApp } from './transfer-app'
 export { DisclaimerSection } from './disclaimer-section'
 export { Map } from './map'
