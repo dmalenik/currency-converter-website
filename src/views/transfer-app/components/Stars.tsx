@@ -13,7 +13,11 @@ export const Stars = ({ stars, rating }: StarsProps) => {
   return (
     <div data-testid='stars'>
       {Array.from({ length: stars }, (_, i) => (
-        <FaRegStar key={uuidv4()} color={i < rating ? 'gold' : 'grey'} />
+        <FaRegStar
+          key={uuidv4()}
+          color={i < rating ? 'gold' : 'grey'}
+          data-testid='star'
+        />
       ))}
     </div>
   )
