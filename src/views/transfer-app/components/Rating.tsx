@@ -5,14 +5,14 @@ export type RatingProps = {
   rating: number
 }
 
-export const Rating = (props: RatingProps) => {
+export const Rating = ({ rating }: RatingProps) => {
   return (
     <div>
       <p>
-        {props.rating}
+        {rating}
         <span>/5</span>
       </p>
-      <Stars stars={5} rating={props.rating} />
+      <Stars stars={5} rating={rating} />
     </div>
   )
 }
