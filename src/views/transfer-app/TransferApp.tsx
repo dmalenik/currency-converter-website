@@ -2,7 +2,7 @@ import React from 'react'
 import { FaCheckCircle } from 'react-icons/fa'
 import { IoMdPhonePortrait } from 'react-icons/io'
 import { Heading, UnorderedList, Link, Card, Markets } from '../../components'
-import { Rating } from './Rating'
+import { Rating } from './components'
 
 export const TransferApp = () => {
   return (
