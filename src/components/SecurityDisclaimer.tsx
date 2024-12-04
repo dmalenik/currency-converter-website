@@ -1,4 +1,4 @@
-import React, {ReactNode} from 'react'
+import React, { ReactNode } from 'react'
 
 export type SecurityDisclaimerProps = {
   icon?: ReactNode
@@ -11,9 +11,7 @@ export const SecurityDisclaimer = ({
 }: SecurityDisclaimerProps) => {
   return (
     <div data-testid='security-disclaimer'>
-      {icon ? (
-        <div data-testid='security-disclaimer-icon'>{icon}</div>
-      ) : undefined}
+      {icon ? icon : undefined}
       <p data-testid='security-disclaimer-paragraph'>{description}</p>
     </div>
   )
