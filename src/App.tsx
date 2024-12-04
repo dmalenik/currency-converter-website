@@ -5,6 +5,7 @@ import {
   SecurityDisclaimerSection,
   Transfer,
   Register,
+  SendMoney,
   TransferApp,
   DisclaimerSection,
   Map,
@@ -20,6 +21,7 @@ function App() {
         <SecurityDisclaimerSection />
         <Transfer />
         <Register />
+        <SendMoney />
         <TransferApp />
         <DisclaimerSection />
         <Map />
