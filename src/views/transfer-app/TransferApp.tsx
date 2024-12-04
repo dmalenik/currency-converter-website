@@ -8,8 +8,8 @@ import { Rating } from './components'
 
 export const TransferApp = () => {
   return (
-    <section>
-      <div className='app'>
+    <div data-testid='transfer-app'>
+      <div className='transfer-app' data-testid='transfer-app-section'>
         <Heading
           title={
             'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos.'
@@ -42,9 +42,9 @@ export const TransferApp = () => {
           <Markets />
         </div>
       </div>
-      <div className='banner'>
+      <div className='banner' data-testid='transfer-app-banner'>
         <IoMdPhonePortrait />
       </div>
-    </section>
+    </div>
   )
 }
