@@ -4,6 +4,8 @@ import { IoMdPhonePortrait } from 'react-icons/io'
 import { Heading, UnorderedList, Link, Card, Markets } from '../../components'
 import { Rating } from './components'
 
+// TODO: replace Heading component with heading tag
+
 export const TransferApp = () => {
   return (
     <section>

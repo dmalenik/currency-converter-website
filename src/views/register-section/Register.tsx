@@ -1,6 +1,8 @@
 import React from 'react'
 import { Heading, UnorderedList, Action, Card } from '../../components'
 
+// TODO: replace heading component with heading tag
+
 export const Register = () => {
   return (
     <section data-testid='register'>
