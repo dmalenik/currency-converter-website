@@ -32,8 +32,8 @@ export const TransferApp = () => {
             description={'Lorem ipsum dolor sit amet consectetur adipisicing.'}
           />
         </UnorderedList>
-        <Link description={'Download now'} ariaLabel='download now' />
-        <div className='downloads'>
+        <Link description={'Download now'} ariaLabel='Download Now' />
+        <div className='downloads' data-testid='downloads'>
           <div className='rating'>
             <Rating rating={4} />
             <Rating rating={4} />
