@@ -7,7 +7,7 @@ export type RatingProps = {
 
 export const Rating = ({ rating }: RatingProps) => {
   return (
-    <div>
+    <div data-testid='rating'>
       <p>
         {rating}
         <span>/5</span>
