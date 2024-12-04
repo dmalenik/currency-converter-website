@@ -3,7 +3,7 @@ import { Heading, UnorderedList, Action, Card } from '../../components'
 
 export const Register = () => {
   return (
-    <section>
+    <section data-testid='register'>
       <Heading title={'Register to start sending money today.'} level={4} />
       <Action action={'Register now'} />
       <UnorderedList>
