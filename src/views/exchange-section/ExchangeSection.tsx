@@ -6,11 +6,13 @@ import { IoShieldCheckmark } from 'react-icons/io5'
 export const ExchangeSection = () => {
   return (
     <section data-testid='exchange-section'>
-      <h1>Currency Converter</h1>
-      <p>
-        Convert popular currencies at effective exchange rates with ourcurrency
-        converter calculator.
-      </p>
+      <header>
+        <h1>Currency Converter</h1>
+        <p>
+          Convert popular currencies at effective exchange rates with
+          ourcurrency converter calculator.
+        </p>
+      </header>
       <Exchange />
       <footer data-testid='exchange-section-footer'>
         <SecurityDisclaimer
