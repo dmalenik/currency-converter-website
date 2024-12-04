@@ -1,7 +1,9 @@
 import React from 'react'
 import { Stars } from './Stars'
 
-import { type RatingProps } from './ratingProps'
+export type RatingProps = {
+  rating: number
+}
 
 export const Rating = (props: RatingProps) => {
   return (

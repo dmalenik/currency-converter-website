@@ -2,11 +2,13 @@ import React from 'react'
 import { FaRegStar } from 'react-icons/fa6'
 import { v4 as uuidv4 } from 'uuid'
 
-import { type StarsProps } from './starsProps'
+export type StarsProps = {
+  stars: number
+  rating: number
+}
 
 export const Stars = (props: StarsProps) => {
-  // TODO: Implement OWN fractional rating system
-  // see CodePen
+  // TODO: implement OWN fractional rating system // see CodePen
   return (
     <div>
       {Array.from({ length: props.stars }, (_, i) => (
