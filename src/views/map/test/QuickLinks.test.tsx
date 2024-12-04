@@ -1,7 +1,6 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
 import { QuickLinks } from '../components'
-import { UnorderedList, Link } from '../../../components'
 
 test('QuickLinks renders in the document', () => {
   render(<QuickLinks />)
@@ -11,48 +10,13 @@ test('QuickLinks renders in the document', () => {
   expect(quickLinks).toBeInTheDocument()
 })
 
-test('QuickLinks includes heading and unordered list', () => {
+test('QuickLinks includes unordered list', () => {
   render(<QuickLinks />)
 
   const quickLinks = screen.getByTestId('quick-links')
-  const heading = screen.getByText('Quick links')
-
-  expect(quickLinks).toContainElement(heading)
-})
-
-test('unordered list renders in the document', () => {
-  render(
-    <UnorderedList>
-      <Link
-        description={'Lorem ipsum dolor sit amet.'}
-        ariaLabel='lorem ipsum'
-      />
-      <Link
-        description={'Lorem ipsum dolor sit amet.'}
-        ariaLabel='lorem ipsum'
-      />
-      <Link
-        description={'Lorem ipsum dolor sit amet.'}
-        ariaLabel='lorem ipsum'
-      />
-      <Link
-        description={'Lorem ipsum dolor sit amet.'}
-        ariaLabel='lorem ipsum'
-      />
-      <Link
-        description={'Lorem ipsum dolor sit amet.'}
-        ariaLabel='lorem ipsum'
-      />
-      <Link
-        description={'Lorem ipsum dolor sit amet.'}
-        ariaLabel='lorem ipsum'
-      />
-    </UnorderedList>,
-  )
-
   const unorderedList = screen.getByTestId('unordered-list')
-  const unorderedListChildren = screen.getAllByTestId('unordered-list-child')
+  const links = screen.queryAllByTestId('link')
 
-  expect(unorderedList).toBeInTheDocument()
-  expect(unorderedListChildren).toHaveLength(6)
+  expect(quickLinks).toContainElement(unorderedList)
+  expect(links).toHaveLength(6)
 })
