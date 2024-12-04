@@ -2,7 +2,6 @@ export {
   SecurityDisclaimer,
   type SecurityDisclaimerProps,
 } from './SecurityDisclaimer'
-export { Heading, type HeadingProps } from './Heading'
 export { Action, type ActionProps } from './Action'
 export { UnorderedList, type UnorderedListProps } from './UnorderedList'
 export { Card, type CardProps } from './Card'

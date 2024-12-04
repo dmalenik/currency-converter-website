@@ -1,12 +1,10 @@
 import React from 'react'
-import { Link, UnorderedList, Heading } from '../../../components'
-
-// TODO: replace Heading component with heading tag
+import { Link, UnorderedList } from '../../../components'
 
 export const QuickLinks = () => {
   return (
     <section data-testid='quick-links'>
-      <Heading title={'Quick links'} level={6} />
+      <h6>Quick links</h6>
       <UnorderedList>
         <Link
           description={'Lorem ipsum dolor sit amet.'}

@@ -1,21 +1,14 @@
 import React from 'react'
 import { FaCheckCircle } from 'react-icons/fa'
 import { IoMdPhonePortrait } from 'react-icons/io'
-import { Heading, UnorderedList, Link, Card, Markets } from '../../components'
+import { UnorderedList, Link, Card, Markets } from '../../components'
 import { Rating } from './components'
-
-// TODO: replace Heading component with heading tag
 
 export const TransferApp = () => {
   return (
     <div data-testid='transfer-app'>
       <div className='transfer-app' data-testid='transfer-app-section'>
-        <Heading
-          title={
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos.'
-          }
-          level={3}
-        />
+        <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos.</h3>
         <UnorderedList>
           <Card
             icon={<FaCheckCircle />}

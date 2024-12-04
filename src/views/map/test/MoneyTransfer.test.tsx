@@ -25,13 +25,13 @@ test('MoneyTransfer includes Search and money transfer section', () => {
 test('money transfer section includes heading and unordered list', () => {
   render(<MoneyTransfer />)
 
-  const moneyTransferSection = screen.getByTestId('money-transfer-section')
-  const moneyTransferSectionHeading = screen.getByTestId('heading')
+  const section = screen.getByTestId('money-transfer-section')
+  const heading = screen.getByText('Money transfer')
 
-  expect(moneyTransferSection).toContainElement(moneyTransferSectionHeading)
+  expect(section).toContainElement(heading)
 })
 
-test('unordered list renders in the document', () => {
+test('UnorderedList renders in the document', () => {
   render(
     <UnorderedList>
       <Link

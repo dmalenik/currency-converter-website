@@ -1,12 +1,10 @@
 import React from 'react'
-import { Link, UnorderedList, Heading } from '../../../components'
-
-// TODO: replace Heading component with simple heading tag
+import { Link, UnorderedList } from '../../../components'
 
 export const Legal = () => {
   return (
     <section data-testid='legal'>
-      <Heading title={'Legal'} level={6} />
+      <h6>Legal</h6>
       <UnorderedList>
         <Link
           description={'Lorem ipsum dolor sit amet.'}

@@ -1,12 +1,10 @@
 import React from 'react'
-import { Heading, UnorderedList, Action, Card } from '../../components'
-
-// TODO: replace heading component with heading tag
+import { UnorderedList, Action, Card } from '../../components'
 
 export const Register = () => {
   return (
     <section data-testid='register'>
-      <Heading title={'Register to start sending money today.'} level={4} />
+      <h4>Register to start sending money today</h4>
       <Action action={'Register now'} />
       <UnorderedList>
         <Card

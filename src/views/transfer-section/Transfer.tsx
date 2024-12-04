@@ -1,20 +1,16 @@
 import React from 'react'
-import { Heading, UnorderedList, Card } from '../../components'
+import { UnorderedList, Card } from '../../components'
 import { FaHeart, FaShieldAlt } from 'react-icons/fa'
 import { LuClock4 } from 'react-icons/lu'
 import { FaGlobe } from 'react-icons/fa6'
 
-// TODO: replace Heading component with heading tag
-
 export const Transfer = () => {
   return (
     <section data-testid='transfer'>
-      <Heading
-        title={
-          "Our customers made millons of transfers with Western Union last year. Here's why:"
-        }
-        level={3}
-      />
+      <h3>
+        Our customers made millons of transfers with Western Union last year.
+        Here's why:
+      </h3>
       <UnorderedList>
         <Card
           icon={<FaHeart />}

@@ -1,15 +1,10 @@
 import React from 'react'
-import { Heading, Action } from '../../components'
-
-// TODO: replace Heading component with heading tag
+import { Action } from '../../components'
 
 export const SendMoney = () => {
   return (
     <section data-testid='send-money'>
-      <Heading
-        title={'Lorem ipsum dolor sit amet consectetur adipisicing.'}
-        level={3}
-      />
+      <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
       <Action action={'Send money'} />
     </section>
   )

@@ -18,7 +18,9 @@ test('Transfer includes Heading and UnorderedList', () => {
   render(<Transfer />)
 
   const transfer = screen.getByTestId('transfer')
-  const heading = screen.getByTestId('heading')
+  const heading = screen.getByText(
+    "Our customers made millons of transfers with Western Union last year. Here's why:",
+  )
   const unorderedList = screen.getByTestId('unordered-list')
 
   expect(transfer).toContainElement(heading)

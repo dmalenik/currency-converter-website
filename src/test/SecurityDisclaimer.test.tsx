@@ -32,7 +32,6 @@ test('SecurityDisclaimer contains icon and paragraph', () => {
   expect(disclaimer).toContainElement(paragraph)
 })
 
-// TODO: test SecurityDisclaimer contains only description and does not contains icon
 test('SecurityDisclaimer contains description and does not contains icon', () => {
   render(<SecurityDisclaimer description={'We encrypt your transfers.'} />)
 

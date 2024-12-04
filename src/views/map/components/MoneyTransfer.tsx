@@ -1,10 +1,8 @@
 import React from 'react'
-import { Search, Link, UnorderedList, Heading } from '../../../components'
+import { Search, Link, UnorderedList } from '../../../components'
 import { SiQatarairways } from 'react-icons/si'
 import { GiGrainBundle } from 'react-icons/gi'
 import { FaFlagUsa } from 'react-icons/fa6'
-
-// TODO: replace Heading component with heading tag
 
 export const MoneyTransfer = () => {
   return (
@@ -25,7 +23,7 @@ export const MoneyTransfer = () => {
         ]}
       />
       <section data-testid='money-transfer-section'>
-        <Heading title={'Money transfer'} level={6} />
+        <h6>Money transfer</h6>
         <UnorderedList>
           <Link
             description={'Lorem ipsum dolor sit amet.'}

@@ -15,7 +15,7 @@ test('Register contains UnorderedList', () => {
   render(<Register />)
 
   const register = screen.getByTestId('register')
-  const heading = screen.getByTestId('heading')
+  const heading = screen.getByText('Register to start sending money today')
   const action = screen.getByTestId('action')
   const unorderedList = screen.getByTestId('unordered-list')
 

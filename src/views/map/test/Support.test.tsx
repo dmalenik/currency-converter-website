@@ -15,7 +15,7 @@ test('QuickLinks includes heading and unordered list', () => {
   render(<Support />)
 
   const support = screen.getByTestId('support')
-  const heading = screen.getByTestId('heading')
+  const heading = screen.getByText('Support')
 
   expect(support).toContainElement(heading)
 })

@@ -6,8 +6,9 @@ export type SearchProps = {
   items: ReactNode[]
 }
 
+// TODO: set base state for Link component below
+
 export const Search = ({ items }: SearchProps) => {
-  // TODO: set base state for Link component below
   return (
     <div data-testid='search'>
       <div data-testid='search-result'>

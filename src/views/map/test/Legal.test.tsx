@@ -15,9 +15,9 @@ test('Legal contains heading and UnorderedList', () => {
   render(<Legal />)
 
   const legal = screen.getByTestId('legal')
-  const heading = screen.getByTestId('heading')
+  const title = screen.getByText('Legal')
 
-  expect(legal).toContainElement(heading)
+  expect(legal).toContainElement(title)
 })
 
 test('unordered list renders in the document', () => {

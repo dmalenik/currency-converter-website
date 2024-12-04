@@ -10,11 +10,13 @@ test('SendMoney renders in the document', () => {
   expect(sendMoney).toBeInTheDocument()
 })
 
-test('SendMoney contains Heading and Action', () => {
+test('SendMoney contains heading and Action', () => {
   render(<SendMoney />)
 
   const sendMoney = screen.getByTestId('send-money')
-  const heading = screen.getByTestId('heading')
+  const heading = screen.getByText(
+    'Lorem ipsum dolor sit amet consectetur adipisicing.',
+  )
   const action = screen.getByTestId('action')
 
   expect(sendMoney).toContainElement(heading)

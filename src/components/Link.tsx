@@ -1,4 +1,4 @@
-import React, {ReactNode} from 'react'
+import React, { ReactNode } from 'react'
 
 export type LinkProps = {
   icon?: ReactNode
@@ -6,8 +6,9 @@ export type LinkProps = {
   ariaLabel: string
 }
 
+// TODO: replace button with a tag
+
 export const Link = ({ icon, description, ariaLabel }: LinkProps) => {
-  // TODO: replace button with a tag
   return (
     <button disabled type='button' aria-label={ariaLabel} data-testid='link'>
       {icon ? icon : undefined}
