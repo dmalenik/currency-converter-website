@@ -9,11 +9,11 @@ export type StarsProps = {
 
 // TODO: implement OWN fractional rating system // see CodePen
 
-export const Stars = (props: StarsProps) => {
+export const Stars = ({ stars, rating }: StarsProps) => {
   return (
     <div data-testid='stars'>
-      {Array.from({ length: props.stars }, (_, i) => (
-        <FaRegStar key={uuidv4()} color={i < props.rating ? 'gold' : 'grey'} />
+      {Array.from({ length: stars }, (_, i) => (
+        <FaRegStar key={uuidv4()} color={i < rating ? 'gold' : 'grey'} />
       ))}
     </div>
   )
