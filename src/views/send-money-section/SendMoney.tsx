@@ -3,7 +3,7 @@ import { Heading, Action } from '../../components'
 
 export const SendMoney = () => {
   return (
-    <section>
+    <section data-testid='send-money'>
       <Heading
         title={'Lorem ipsum dolor sit amet consectetur adipisicing.'}
         level={3}
